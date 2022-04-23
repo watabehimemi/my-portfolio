@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: "Century Gothic";
+  background-color: rgb(107, 92, 103);
+}
+ul {
+  list-style: none;
+}
+#zibun {
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+}
+.my_follow_info {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 25px;
+}
+.info1 {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.info2 {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.info3 {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+em {
+  font-size: larger;
+  font-weight: bolder;
+}
+button {
+  border: solid 2px black;
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.buttons {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.profile {
+  font-size: 22px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.photos_line1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photos_line2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background-color: rgb(107, 92, 103);
+  height: 120px;
+  font-family: "Century Gothic";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
