@@ -57,3 +57,16 @@ ph6.onmouseover = function () {
 ph6.onmouseout = function () {
   ph6.src = "images/zirou.jpg";
 };
+//クイズ実装
+let quizContainer = document.getElementById("quiz-container");
+let quizButton = document.getElementById("quiz");
+
+quizContainer.style.display = "none";
+
+quizButton.onclick = function () {
+  if (quizContainer.style.display == "block") {
+    quizContainer.style.display = "none";
+  } else {
+    quizContainer.style.display = "block";
+  }
+};

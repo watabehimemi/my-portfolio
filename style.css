@@ -54,6 +54,12 @@ button {
   justify-content: center;
   justify-content: space-around;
 }
+.quiz-container {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .profile {
   font-size: 22px;
   margin-left: 200px;
