@@ -71,3 +71,23 @@ quizButton.onclick = function () {
     quizContainer.style.display = "block";
   }
 };
+
+const quiz1 = document.getElementById("quiz-1");
+const quiz2 = document.getElementById("quiz-2");
+const quiz3 = document.getElementById("quiz-3");
+const quiz4 = document.getElementById("quiz-4");
+const quizAnswer = document.getElementById("quiz-answer");
+
+quiz1.onclick = function () {
+  quizAnswer.textContent =
+    "はずれ。一気に10個割ったことはないけど、通算10個割ったよ。";
+};
+quiz2.onclick = function () {
+  quizAnswer.textContent = "はずれ。お客さんはお父さんではありません！";
+};
+quiz3.onclick = function () {
+  quizAnswer.textContent = "はずれ。友達がやらかしてたよ。";
+};
+quiz4.onclick = function () {
+  quizAnswer.textContent = "あたり。料理名はなかなか覚えられないよ。";
+};
